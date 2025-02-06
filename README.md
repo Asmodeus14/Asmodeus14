@@ -20,7 +20,7 @@ A college club coordination platform handling user management, notifications, an
 ✅ Automated database maintenance  
 ✅ RESTful API with rate limiting
 
-**Explore:** [Campus Connect Repo](https://github.com/Asmodeus14/CampusConnect) | [Live Demo](#)
+**Explore:** [Campus Connect Repo](https://github.com/Asmodeus14/Club-Notification-System) | [Live Demo](#)
 
 ---
 
