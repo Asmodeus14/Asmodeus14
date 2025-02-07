@@ -38,7 +38,18 @@ Medical records system handling sensitive patient data with HIPAA-compliant arch
 **Explore:** [MediTrack Repo](https://github.com/Asmodeus14/MediTrack)
 
 ---
+# 🩺 HealthGuard AI - Disease Prediction System
 
+**Machine Learning | Healthcare Analytics | Early Risk Detection**  
+An AI-powered diagnostic assistant providing multi-disease prediction with 87% top accuracy. Built for medical practitioners and health-conscious individuals.
+
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.28-FF4B4B?logo=streamlit)](https://streamlit.io/)
+[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.3-F7931E?logo=scikit-learn)](https://scikit-learn.org/)
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+![HealthGuard AI Repo](https://github.com/Asmodeus14/HealthGuard-AI-Disease-Prediction-System)
+---
 ## 🧰 Technical Arsenal
 
 ### **Programming Languages**
