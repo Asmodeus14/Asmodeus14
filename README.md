@@ -24,15 +24,14 @@ A college club coordination platform handling user management, notifications, an
 
 ---
 
-### 🏥 **MediTrack - Patient Management System**  
-**Django | PostgreSQL | Docker**  
-Medical records system handling sensitive patient data with HIPAA-compliant architecture.  
-[![Django](https://img.shields.io/badge/Django-4.2-%23092E20.svg?logo=django)](https://www.djangoproject.com/)
+🏥 MediTrack - Patient Management System
+Python | SQLite (Transitioning to PostgreSQL) | Tkinter
+A standalone desktop application for managing medical records with a HIPAA-compliant architecture.
 
-**Features:**  
-🔒 Role-based access control  
-📈 Patient statistics dashboard  
-📄 Digital prescription management  
+Features:
+🔒 Role-based access control
+📈 Patient statistics dashboard
+📄 Digital prescription management
 ⚡ Optimized database queries
 
 **Explore:** [MediTrack Repo](https://github.com/Asmodeus14/MediTrack)
@@ -49,6 +48,7 @@ An AI-powered diagnostic assistant providing multi-disease prediction with 87% t
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **Explore:** [HealthGuard AI Repo](https://github.com/Asmodeus14/HealthGuard-AI-Disease-Prediction-System)
+
 ---
 ## 🧰 Technical Arsenal
 
