@@ -47,7 +47,7 @@ An AI-powered diagnostic assistant providing multi-disease prediction with 87% t
 [![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.3-F7931E?logo=scikit-learn)](https://scikit-learn.org/)
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**Explore:** [HealthGuard AI Repo](https://github.com/Asmodeus14/HealthGuard-AI-Disease-Prediction-System)
+**Explore:** [HealthGuard AI Repo](https://github.com/Asmodeus14/HealthGuard-AI-Disease-Prediction-System) || Live Demo: 👉 HealthGuard AI
 
 ---
 ## 🧰 Technical Arsenal
