@@ -69,26 +69,26 @@ AI-powered diagnostic assistant providing multi-disease prediction with 87% accu
 
 ---
 
-## 📊 GitHub Analytics - Pencil Sketch Style
+## 📊 GitHub Analytics
 
-### 🎨 Contribution Activity
+### 🐍 Contribution Snake Game
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Asmodeus14/Asmodeus14/output/github-contribution-grid-snake.svg" alt="Contribution Snake" />
+  <img src="https://raw.githubusercontent.com/Asmodeus14/Asmodeus14/output/snake.svg" alt="Snake Game" />
 </p>
 
-### 📈 GitHub Stats - Hand-Drawn Style
+### 📈 GitHub Stats
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Asmodeus14&show_icons=true&theme=default&count_private=true&include_all_commits=true&bg_color=ffffff&title_color=000000&text_color=000000&icon_color=000000&border_color=cccccc&border_radius=10&hide_border=false&custom_title=Abhay%27s%20GitHub%20Stats" alt="GitHub Stats" width="48%" />
   
   <img src="https://github-readme-streak-stats.herokuapp.com?user=Asmodeus14&theme=default&background=ffffff&border=cccccc&stroke=cccccc&ring=000000&fire=ff6b6b&currStreakNum=000000&sideNums=000000&currStreakLabel=000000&sideLabels=000000&dates=666666" alt="GitHub Streak" width="48%" />
 </p>
 
-### 🔤 Top Languages - Sketch Style
+### 🔤 Top Languages
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Asmodeus14&layout=compact&theme=default&langs_count=8&bg_color=ffffff&title_color=000000&text_color=000000&border_color=cccccc&border_radius=10&hide_border=false&custom_title=Most%20Used%20Languages" alt="Top Languages" width="60%" />
 </p>
 
-### 📝 Activity Graph - Minimalist Style
+### 📝 Activity Graph
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Asmodeus14&theme=minimal&area=true&hide_border=true&bg_color=ffffff&color=000000&line=000000&point=000000" alt="Activity Graph" />
 </p>
@@ -155,9 +155,6 @@ AI-powered diagnostic assistant providing multi-disease prediction with 87% accu
   <a href="mailto:singhabhay3145@gmail.com">
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-  <a href="https://twitter.com/yourhandle">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
-  </a>
 </p>
 
 ---
@@ -183,3 +180,5 @@ AI-powered diagnostic assistant providing multi-disease prediction with 87% accu
 > **"The best way to predict the future is to invent it."** — Alan Kay
 
 *Let's build groundbreaking technology together!* 🚀
+
+---
