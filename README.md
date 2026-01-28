@@ -1,131 +1,80 @@
 # 👋 Hi, I'm Abhay Singh!
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=4285F4&center=true&vCenter=true&width=435&lines=Full+Stack+Developer;Quantum+Systems+Architect;AI+Innovator;Open+Source+Contributor" alt="Typing SVG" />
+  </a>
+</p>
 
-**Full Stack Developer | Python Enthusiast | Problem Solver**  
-Welcome to my GitHub profile! I'm passionate about building scalable web applications and open-source collaboration. Currently focusing on backend systems and developer experience.
 
----
-
-## 🛠️ Featured Projects
-
-### 🎓 **Campus Connect Club Management System** *(Team Heckers)*  
-**Flask | Vue.js | PostgreSQL | Redis**  
-A college club coordination platform handling user management, notifications, and event scheduling for 3000+ users.  
-[![Flask](https://img.shields.io/badge/Flask-2.3.3-%23000.svg?logo=flask)](https://flask.palletsprojects.com/)
-[![Vue.js](https://img.shields.io/badge/Vue.js-3.3-%2342b883.svg?logo=vuedotjs)](https://vuejs.org/)
-
-**Key Features:**  
-✅ Role-based access control system  
-✅ Real-time notifications with WebSocket  
-✅ Email queue management with Redis  
-✅ Automated database maintenance  
-✅ RESTful API with rate limiting
-
-**Explore:** [Campus Connect Repo](https://github.com/Asmodeus14/Club-Notification-System) | [Live Demo](https://club-notification-system.vercel.app)
 
 ---
 
-🏥 MediTrack - Patient Management System
-Python | SQLite (Transitioning to PostgreSQL) | Tkinter
-A standalone desktop application for managing medical records with a HIPAA-compliant architecture.
+## 🚀 Featured Projects
 
-Features:
-🔒 Role-based access control
-📈 Patient statistics dashboard
-📄 Digital prescription management
-⚡ Optimized database queries
-
-**Explore:** [MediTrack Repo](https://github.com/Asmodeus14/MediTrack)
-
----
-# 🩺 HealthGuard AI - Disease Prediction System
-
-**Machine Learning | Healthcare Analytics | Early Risk Detection**  
-An AI-powered diagnostic assistant providing multi-disease prediction with 87% top accuracy. Built for medical practitioners and health-conscious individuals.
-
-[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python)](https://www.python.org/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.28-FF4B4B?logo=streamlit)](https://streamlit.io/)
-[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.3-F7931E?logo=scikit-learn)](https://scikit-learn.org/)
-[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-**Explore:** [HealthGuard AI Repo](https://github.com/Asmodeus14/HealthGuard-AI-Disease-Prediction-System) || Live Demo: 👉 [HealthGuard AI](https://healthguard-ai-disease-prediction-system-tmwhmdczpgnwebxvexryz.streamlit.app/)
-
----
-## 🧰 Technical Arsenal
-
-### **Programming Languages**
-![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white)
-
-### **Frameworks & Libraries**
-![Django](https://img.shields.io/badge/-Django-092E20?logo=django&logoColor=white)
-![Flask](https://img.shields.io/badge/-Flask-000000?logo=flask&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black)
-![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?logo=vuedotjs&logoColor=white)
-
-### **Database Management**
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/-Redis-DC382D?logo=redis&logoColor=white)
-
-### **DevOps & Tools**
-![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?logo=visual-studio-code&logoColor=white)
-![Postman](https://img.shields.io/badge/-Postman-FF6C37?logo=postman&logoColor=white)
-
-### **Soft Skills**
-![Problem Solving](https://img.shields.io/badge/-Problem%20Solving-FFD700?logo=starship&logoColor=black)
-![Team Collaboration](https://img.shields.io/badge/-Teamwork-2ECC71?logo=teamwork&logoColor=white)
-![Time Management](https://img.shields.io/badge/-Time%20Management-9B59B6?logo=clockify&logoColor=white)
-![Agile Development](https://img.shields.io/badge/-Agile-3498DB?logo=agile&logoColor=white)
-
-### **Currently Learning**
-![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?logo=kubernetes&logoColor=white)
-![AWS](https://img.shields.io/badge/-AWS-232F3E?logo=amazon-aws&logoColor=white)
-![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?logo=graphql&logoColor=white)
----
-
-## 📈 GitHub Stats
-
-![Abhay's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Asmodeus14&show_icons=true&theme=radical&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Asmodeus14&layout=compact&theme=radical)
+### ⚛️ QCLang: Schrödinger’s Companion
+**Quantum Systems Programming | Rust | Compilers**
+A modern, type-safe language designed to bridge the gap between classical systems and quantum circuit execution.
+- **Quantum Safety:** Compile-time enforcement of the *No-Cloning Theorem* using an affine type system.
+- **Backend:** Compiles to optimized **OpenQASM 2.0**.
+[**View Repository**](https://github.com/Asmodeus14/qclang)
 
 ---
 
-## 🚀 What's Next?
-
-- **Learning Goals:**  
-  🔸 Master distributed systems architecture  
-  🔸 Explore Kubernetes for container orchestration  
-  🔸 Implement advanced caching strategies
-
-- **Project Goals:**  
-  🚩 Develop a microservices-based e-commerce platform  
-  🚩 Create a developer-focused blog platform  
-  🚩 Build an open-source API rate limiting library
+### 🛡️ CodeCopilot
+**AI-Powered Analysis | React | Flask | Google Gemini**
+An intelligent platform that identifies security vulnerabilities and optimization opportunities in web projects.
+- **Deep Analysis:** Uses LLMs for root-cause analysis and step-by-step fix instructions.
+- **Hardened Security:** Built-in protection against Zip Bombs and path traversal.
+[**Live Demo**](https://codecopilot0.vercel.app) | [**Backend Code**](https://github.com/Asmodeus14/codecopilot-backend)
 
 ---
 
-## 🌐 Connect With Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abhay-singh-323b21279/)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&logoColor=white)](https://twitter.com/yourhandle)
-[![Portfolio](https://img.shields.io/badge/Portfolio-4285F4?logo=google-chrome&logoColor=white)](https://portfolio-psi-nine-95.vercel.app)
-[![Email](https://img.shields.io/badge/Email-EA4335?logo=gmail&logoColor=white)](mailto:singhabhay3145@gmail.com)
-
----
-
-## 💡 Did You Know?
-
-I once optimized a database query from 2.3s to 87ms! Ask me about:  
-✅ Query optimization techniques  
-✅ API rate limiting strategies  
-✅ WebSocket implementation challenges
+### 🌌 Nyx OS
+**Operating System Design | AI-Core | Quantum-Ready**
+An experimental OS pushing the boundaries of computing with a focus on modularity and AI integration.
+- **Innovations:** Self-healing file systems and "Time-aware" versioning.
+- **Future-Proof:** Designed for hybrid quantum-classical processor workflows.
+[**Check the Core**](https://github.com/Asmodeus14/Nyx)
 
 ---
 
-**"First solve the problem, then write the code."** - John Johnson
+## 🛠️ Technical Arsenal
+
+<div align="center">
+
+| Category | Tools & Technologies |
+| :--- | :--- |
+| **Languages** | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) ![Rust](https://img.shields.io/badge/-Rust-000000?logo=rust&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black) ![C++](https://img.shields.io/badge/-C++-00599C?logo=c%2B%2B&logoColor=white) |
+| **Frameworks** | ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black) ![Flask](https://img.shields.io/badge/-Flask-000000?logo=flask&logoColor=white) ![Django](https://img.shields.io/badge/-Django-092E20?logo=django&logoColor=white) |
+| **Web3 / AI** | ![Solidity](https://img.shields.io/badge/-Solidity-363636?logo=solidity&logoColor=white) ![Gemini AI](https://img.shields.io/badge/-Gemini%20AI-8E75C2?logo=google-gemini&logoColor=white) |
+| **DevOps** | ![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?logo=postgresql&logoColor=white) ![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white) |
+
+</div>
+
+---
+
+## 📊 My Coding Journey
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Asmodeus14&show_icons=true&theme=radical&count_private=true" alt="Abhay's Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Asmodeus14&layout=compact&theme=radical" alt="Top Languages" width="48%" />
+</p>
+
+### 🐍 Contribution Activity
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Asmodeus14/Asmodeus14/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
+</p>
+
+---
+
+## 🌐 Connect & Collaborate
+
+<p align="center">
+<a href="https://www.linkedin.com/in/abhay-singh-323b21279/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://portfolio-psi-nine-95.vercel.app"><img src="https://img.shields.io/badge/Portfolio-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white" /></a>
+<a href="mailto:singhabhay3145@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+</p>
+
+---
+
+> **"First solve the problem, then write the code."** — John Johnson
