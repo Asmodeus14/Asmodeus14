@@ -70,10 +70,13 @@ AI-powered diagnostic assistant providing multi-disease prediction with 87% accu
 ---
 
 ## 📊 GitHub Analytics
-
-### 🐍 Contribution Snake Game
+### 🐍 The Contribution Snake
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Asmodeus14/Asmodeus14/output/snake.svg" alt="Snake Game" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Asmodeus14/Asmodeus14/output/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Asmodeus14/Asmodeus14/output/github-snake.svg">
+    <img alt="github-snake" src="https://raw.githubusercontent.com/Asmodeus14/Asmodeus14/output/github-snake.svg" style="filter: grayscale(100%);">
+  </picture>
 </p>
 
 ### 📈 GitHub Stats
