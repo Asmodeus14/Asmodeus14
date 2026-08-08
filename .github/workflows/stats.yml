@@ -1,0 +1,48 @@
+name: Generate Stats Card
+
+on:
+  schedule:
+    - cron: "17 3 * * *" # daily, offset off the hour to avoid peak scheduling
+  workflow_dispatch:
+  push:
+    branches:
+      - Dump # default branch of this repo
+    paths-ignore:
+      - "assets/**" # don't react to our own generated output
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stats
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Render stats SVGs
+        run: node .github/scripts/gen-stats.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LOGIN: ${{ github.repository_owner }}
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stats-dark.svg assets/stats-light.svg
+          if git diff --staged --quiet; then
+            echo "stats unchanged"
+          else
+            git commit -m "chore: refresh stats card [skip ci]"
+            git push
+          fi

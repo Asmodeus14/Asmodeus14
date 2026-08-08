@@ -1,187 +1,110 @@
-# 👋 Hi, I'm Abhay Singh!
+<div align="center">
 
-**Quantum-Ready Full Stack Developer | AI/ML Engineer | System Architect**  
-Passionate about building innovative solutions at the intersection of quantum computing, AI, and scalable systems. Currently pushing boundaries in quantum-classical hybrid systems and developer tooling.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Asmodeus14/Asmodeus14/Dump/assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Asmodeus14/Asmodeus14/Dump/assets/banner-light.svg">
+  <img alt="Abhay Singh — quantum systems, compilers, operating systems" src="https://raw.githubusercontent.com/Asmodeus14/Asmodeus14/Dump/assets/banner-dark.svg" width="100%">
+</picture>
 
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=4285F4&center=true&vCenter=true&width=435&lines=Full+Stack+Developer;Quantum+Systems+Architect;AI+Innovator;Open+Source+Contributor" alt="Typing SVG" />
-  </a>
-</p>
+**I build the layer underneath.** Operating systems, compilers, and type systems for hardware that doesn't quite exist yet.
 
----
+<!-- kept on one line: GFM turns single newlines into <br>, which would stack these vertically -->
+<a href="https://portfolio-psi-nine-95.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=flat-square&logo=vercel&logoColor=22D3EE&labelColor=0D1117" alt="Portfolio"></a> <a href="https://www.linkedin.com/in/abhay-singh-323b21279/"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=flat-square&logo=linkedin&logoColor=22D3EE&labelColor=0D1117" alt="LinkedIn"></a> <a href="mailto:singhabhay3145@gmail.com"><img src="https://img.shields.io/badge/Email-0D1117?style=flat-square&logo=gmail&logoColor=22D3EE&labelColor=0D1117" alt="Email"></a>
 
-## 🚀 Featured Projects
-
-### ⚛️ **QCLang: Schrödinger's Companion** 🥇 **Top Priority**
-**Quantum Systems Programming | Rust | Compiler Design**  
-A modern, type-safe language designed to bridge classical systems and quantum circuit execution with compile-time enforcement of quantum principles.
-
-**Key Highlights:**
-- **Quantum Safety:** Affine type system enforcing the No-Cloning Theorem at compile time
-- **Backend:** Compiles to optimized OpenQASM 2.0 with quantum circuit optimization
-- **Tooling:** Full IDE support with quantum circuit visualization
-- **Research Focus:** Academic exploration of quantum programming paradigms
-
-[**Explore QCLang**](https://github.com/Asmodeus14/qclang)
+</div>
 
 ---
 
-### 🌌 **Nyx OS - Experimental Operating System** 🥈 **Active Development**
-**Operating System Design | AI-Core | Quantum-Ready Architecture**  
-An experimental OS pushing boundaries with modular design, self-healing systems, and future processor workflows.
+## Building
 
-**Current Status:** Early development phase - Building core architecture
-- **⚠️ Note:** Active research project - No ISO available yet
-- **Modular Design:** Microkernel architecture with pluggable components
-- **Future-Proof:** Designed for hybrid quantum-classical workflows
-- **Open Development:** Building foundational systems layer
+<table>
+<tr>
+<td width="50%" valign="top">
 
-[**Check the Core**](https://github.com/Asmodeus14/Nyx)
+### 🌌 [Nyx](https://github.com/Asmodeus14/Nyx)
 
----
+A bare-metal operating system that treats classical, quantum, and AI compute as first-class citizens of the same kernel — with quantum language support built into the system layer, not bolted on above it.
 
-### 🛡️ **CodeCopilot AI** 🥉 **Production-Ready Tool**
-**AI-Powered Security Analysis | React | Flask | Google Gemini**  
-An intelligent platform that identifies security vulnerabilities and optimization opportunities in web projects.
+`C` · `Assembly` · microkernel · [firmware →](https://github.com/Asmodeus14/Nyx-Firmwares)
 
-**Why it matters:** Practical tool for developers with immediate value
-- **Deep Analysis:** LLM-powered root-cause analysis with step-by-step fixes
-- **Hardened Security:** Protection against Zip Bombs, path traversal attacks
-- **Live Demo:** Fully functional web application
-- **Real-time Feedback:** Interactive security scoring system
+</td>
+<td width="50%" valign="top">
 
-[**Live Demo**](https://codecopilot0.vercel.app) | [**Backend Code**](https://github.com/Asmodeus14/codecopilot-backend)
+### ⚛️ [QCLang](https://github.com/Asmodeus14/qclang)
 
----
+A statically-typed language for hybrid quantum/classical programs. An affine type system enforces the **No-Cloning Theorem at compile time** — the compiler rejects a program that would duplicate a qubit. Emits OpenQASM 2.0.
 
-### 🩺 **HealthGuard AI - Disease Prediction System**
-**Machine Learning | Healthcare Analytics | Streamlit**  
-AI-powered diagnostic assistant providing multi-disease prediction with 87% accuracy.
+`Rust` · compiler design · type theory
 
-**Key Features:**
-- **87% Accuracy:** Ensemble ML models for reliable predictions
-- **Multi-Disease Support:** Predicts 5+ diseases from symptoms
-- **Live Demo:** Fully functional web application
-- **Healthcare Focus:** Medical-grade application design
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-[**Live Demo**](https://healthguard-ai-disease-prediction-system-tmwhmdczpgnwebxvexryz.streamlit.app/) | [**Repository**](https://github.com/Asmodeus14/HealthGuard-AI-Disease-Prediction-System)
+### 🔗 [OpenForge](https://github.com/Asmodeus14/OpenForge)
 
----
+A decentralized collaboration platform — on-chain contracts governing ownership, with a real-time chat backend and a TypeScript client on top.
 
-## 📊 GitHub Analytics
-### 🐍 The Contribution Snake
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Asmodeus14/Asmodeus14/output/github-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Asmodeus14/Asmodeus14/output/github-snake.svg">
-    <img alt="github-snake" src="https://raw.githubusercontent.com/Asmodeus14/Asmodeus14/output/github-snake.svg" style="filter: grayscale(100%);">
-  </picture>
-</p>
+`Solidity` · `TypeScript` · `Node`
+[contracts](https://github.com/Asmodeus14/OpenForge-Contracts) · [backend](https://github.com/Asmodeus14/OpenForge-Backend) · [docs](https://github.com/Asmodeus14/OpenForge-Documentation)
 
-### 📈 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Asmodeus14&show_icons=true&theme=default&count_private=true&include_all_commits=true&bg_color=ffffff&title_color=000000&text_color=000000&icon_color=000000&border_color=cccccc&border_radius=10&hide_border=false&custom_title=Abhay%27s%20GitHub%20Stats" alt="GitHub Stats" width="48%" />
-  
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Asmodeus14&theme=default&background=ffffff&border=cccccc&stroke=cccccc&ring=000000&fire=ff6b6b&currStreakNum=000000&sideNums=000000&currStreakLabel=000000&sideLabels=000000&dates=666666" alt="GitHub Streak" width="48%" />
-</p>
+</td>
+<td width="50%" valign="top">
 
-### 🔤 Top Languages
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Asmodeus14&layout=compact&theme=default&langs_count=8&bg_color=ffffff&title_color=000000&text_color=000000&border_color=cccccc&border_radius=10&hide_border=false&custom_title=Most%20Used%20Languages" alt="Top Languages" width="60%" />
-</p>
+### 🛡️ [CodeCopilot AI](https://codecopilot0.vercel.app)
 
-### 📝 Activity Graph
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Asmodeus14&theme=minimal&area=true&hide_border=true&bg_color=ffffff&color=000000&line=000000&point=000000" alt="Activity Graph" />
-</p>
+LLM-powered static analysis that finds vulnerabilities and explains the root cause instead of just flagging a line. Hardened against zip bombs and path traversal in its own upload path.
+
+`React` · `Flask` · `Gemini` — **[live demo →](https://codecopilot0.vercel.app)**
+
+</td>
+</tr>
+</table>
+
+<sub>Also: [HealthGuard AI](https://github.com/Asmodeus14/HealthGuard-AI-Disease-Prediction-System) (multi-disease ML prediction) · [JarNox](https://github.com/Asmodeus14/JarNox-Frontend-) (stock dashboard) · [DSA Journey](https://github.com/Asmodeus14/DSA-Solutions-Journey) (algorithm solutions)</sub>
 
 ---
 
-## 🛠️ Technical Arsenal
+## Stack
 
-### **Quantum & Systems Development**
-![Rust](https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white)
-![Qiskit](https://img.shields.io/badge/Qiskit-6929C4?logo=qiskit&logoColor=white)
-![OpenQASM](https://img.shields.io/badge/OpenQASM-6B46C1?logo=quantum&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+<!-- each row stays on a single line: GFM converts newlines to <br> and would stack the badges -->
+**Systems & Quantum**<br>
+![Rust](https://img.shields.io/badge/Rust-0D1117?style=flat-square&logo=rust&logoColor=FFFFFF&labelColor=0D1117) ![C](https://img.shields.io/badge/C-0D1117?style=flat-square&logo=c&logoColor=A8B9CC&labelColor=0D1117) ![C++](https://img.shields.io/badge/C++-0D1117?style=flat-square&logo=cplusplus&logoColor=00599C&labelColor=0D1117) ![Qiskit](https://img.shields.io/badge/Qiskit-0D1117?style=flat-square&logo=qiskit&logoColor=6929C4&labelColor=0D1117) ![Linux](https://img.shields.io/badge/Linux-0D1117?style=flat-square&logo=linux&logoColor=FCC624&labelColor=0D1117) ![Docker](https://img.shields.io/badge/Docker-0D1117?style=flat-square&logo=docker&logoColor=2496ED&labelColor=0D1117)
 
-### **Web & Full Stack Development**
-![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?logo=vuedotjs&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?logo=django&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-
-### **AI/ML & Data Science**
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?logo=scikit-learn&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
-
-### **Database & DevOps**
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+**Application & Data**<br>
+![Python](https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=3776AB&labelColor=0D1117) ![TypeScript](https://img.shields.io/badge/TypeScript-0D1117?style=flat-square&logo=typescript&logoColor=3178C6&labelColor=0D1117) ![React](https://img.shields.io/badge/React-0D1117?style=flat-square&logo=react&logoColor=61DAFB&labelColor=0D1117) ![Next.js](https://img.shields.io/badge/Next.js-0D1117?style=flat-square&logo=nextdotjs&logoColor=FFFFFF&labelColor=0D1117) ![Flask](https://img.shields.io/badge/Flask-0D1117?style=flat-square&logo=flask&logoColor=FFFFFF&labelColor=0D1117) ![Solidity](https://img.shields.io/badge/Solidity-0D1117?style=flat-square&logo=solidity&logoColor=FFFFFF&labelColor=0D1117) ![PyTorch](https://img.shields.io/badge/PyTorch-0D1117?style=flat-square&logo=pytorch&logoColor=EE4C2C&labelColor=0D1117) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0D1117?style=flat-square&logo=postgresql&logoColor=4169E1&labelColor=0D1117)
 
 ---
 
-## 🎯 Current Focus
+## Activity
 
-### **Active Development**
-1. **QCLang:** Building quantum compiler backend and type system
-2. **Nyx OS:** Developing core operating system components
-3. **CodeCopilot:** Enhancing AI analysis capabilities
+<div align="center">
 
-### **Learning Goals**
-- 🔬 **Quantum Algorithms:** Grover's, Shor's, and variational methods
-- 🏗️ **Systems Architecture:** Microkernel design and distributed systems
-- 🤖 **AI Research:** Generative models and reinforcement learning
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Asmodeus14/Asmodeus14/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Asmodeus14/Asmodeus14/output/github-snake.svg">
+  <img alt="Contribution graph being eaten by a snake" src="https://raw.githubusercontent.com/Asmodeus14/Asmodeus14/output/github-snake.svg">
+</picture>
 
-### **Project Pipeline**
-- 🚀 **Quantum IDE:** Browser-based quantum circuit designer
-- 🛡️ **Enhanced Code Analysis:** Multi-language support for CodeCopilot
-- 🌐 **OS Kernel Development:** Nyx OS foundational layers
+<!-- Self-generated by .github/workflows/stats.yml — the shared
+     github-readme-stats instance returns 503 under load, which puts broken
+     images on the profile. This card is served straight from the repo. -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Asmodeus14/Asmodeus14/Dump/assets/stats-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Asmodeus14/Asmodeus14/Dump/assets/stats-light.svg">
+  <img alt="GitHub statistics and top languages" src="https://raw.githubusercontent.com/Asmodeus14/Asmodeus14/Dump/assets/stats-dark.svg" width="100%">
+</picture>
 
----
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Asmodeus14&area=true&hide_border=true&hide_title=true&bg_color=00000000&color=8B949E&line=22D3EE&point=8B5CF6">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Asmodeus14&area=true&hide_border=true&hide_title=true&bg_color=00000000&color=57606A&line=0891B2&point=7C3AED">
+  <img alt="Contribution activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=Asmodeus14&area=true&hide_border=true&hide_title=true&bg_color=00000000&color=8B949E&line=22D3EE&point=8B5CF6">
+</picture>
 
-## 🌐 Connect & Collaborate
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/abhay-singh-323b21279/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://portfolio-psi-nine-95.vercel.app">
-    <img src="https://img.shields.io/badge/Portfolio-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white" />
-  </a>
-  <a href="mailto:singhabhay3145@gmail.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</p>
+</div>
 
 ---
 
-## 💡 Technical Insights
-
-**Recent Achievements:**
-- ✅ **Query Optimization:** Reduced database query time from 2.3s to 87ms (96% improvement)
-- ✅ **Quantum Simulation:** Implemented basic quantum circuit simulator in Rust
-- ✅ **Security Hardening:** Built protection against 5+ common web vulnerabilities
-- ✅ **System Design:** Architectured platform supporting 3000+ concurrent users
-
-**Ask me about:**
-- 🔧 **Compiler Design:** Building QCLang's quantum type system
-- 🖥️ **OS Development:** Nyx OS architecture decisions
-- 🤖 **AI Integration:** LLM-powered code analysis in CodeCopilot
-- ⚡ **Performance:** Database optimization and caching strategies
-
----
-
-> **"First solve the problem, then write the code."** — John Johnson  
-> **"Quantum computing is not just about speed, it's about solving problems we can't solve classically."** — Michele Mosca  
-> **"The best way to predict the future is to invent it."** — Alan Kay
-
-*Let's build groundbreaking technology together!* 🚀
-
----
+<div align="center">
+<sub>Ask me about compiler design, kernel architecture, or enforcing quantum mechanics in a type system.</sub>
+</div>

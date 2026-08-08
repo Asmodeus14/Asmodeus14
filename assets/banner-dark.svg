@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" width="1000" height="260" role="img" aria-label="Abhay Singh - quantum systems, compilers, operating systems">
+  <title>Abhay Singh — quantum systems · compilers · operating systems</title>
+
+  <defs>
+    <!-- userSpaceOnUse: zero-width/height bboxes (vertical bars, the horizontal
+         wire) would make an objectBoundingBox gradient degenerate and not paint -->
+    <linearGradient id="ink" gradientUnits="userSpaceOnUse" x1="236" y1="0" x2="764" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="55%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+
+    <linearGradient id="wireFade" gradientUnits="userSpaceOnUse" x1="185" y1="0" x2="815" y2="0">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#22d3ee" stop-opacity="0.55"/>
+      <stop offset="80%" stop-color="#8b5cf6" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="glowC" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowV" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+
+    <clipPath id="frame">
+      <rect x="0" y="0" width="1000" height="260" rx="14"/>
+    </clipPath>
+
+    <style>
+      .mono { font-family: "DejaVu Sans Mono","Liberation Mono",Consolas,Menlo,monospace; }
+
+      @keyframes driftR { from { transform: translateX(0);      }
+                          to   { transform: translateX(200px);  } }
+      @keyframes driftL { from { transform: translateX(0);      }
+                          to   { transform: translateX(-200px); } }
+      @keyframes blink  { 0%,45% { opacity: 1; } 55%,100% { opacity: 0; } }
+      @keyframes breathe{ 0%,100% { opacity: .30; } 50% { opacity: .75; } }
+      @keyframes dash   { to { stroke-dashoffset: -48; } }
+      @keyframes spin   { to { transform: rotate(360deg); } }
+
+      .wave1  { animation: driftR 7s linear infinite; }
+      .wave2  { animation: driftL 11s linear infinite; }
+      .cursor { animation: blink 1.15s step-end infinite; }
+      .wire   { stroke-dasharray: 6 10; animation: dash 2.4s linear infinite; }
+      .halo   { animation: breathe 4.5s ease-in-out infinite; }
+      .ring3  { transform-origin: center; animation: spin 18s linear infinite; }
+
+      @media (prefers-reduced-motion: reduce) {
+        .wave1,.wave2,.cursor,.wire,.halo,.ring3 { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect x="0" y="0" width="1000" height="260" fill="#0d1117"/>
+
+    <!-- ambient glows -->
+    <circle cx="120" cy="130" r="150" fill="url(#glowC)" class="halo"/>
+    <circle cx="880" cy="130" r="150" fill="url(#glowV)" class="halo" style="animation-delay:-2.2s"/>
+
+    <!-- interference field -->
+    <g opacity="0.5">
+      <path class="wave1" fill="none" stroke="#22d3ee" stroke-opacity="0.42" stroke-width="1.6"
+        d="M -200 225 C -175 209 -125 209 -100 225 C -75 241 -25 241 0 225 C 25 209 75 209 100 225 C 125 241 175 241 200 225 C 225 209 275 209 300 225 C 325 241 375 241 400 225 C 425 209 475 209 500 225 C 525 241 575 241 600 225 C 625 209 675 209 700 225 C 725 241 775 241 800 225 C 825 209 875 209 900 225 C 925 241 975 241 1000 225 C 1025 209 1075 209 1100 225 C 1125 241 1175 241 1200 225"/>
+      <path class="wave2" fill="none" stroke="#8b5cf6" stroke-opacity="0.38" stroke-width="1.6"
+        d="M -200 233 C -175 217 -125 217 -100 233 C -75 249 -25 249 0 233 C 25 217 75 217 100 233 C 125 249 175 249 200 233 C 225 217 275 217 300 233 C 325 249 375 249 400 233 C 425 217 475 217 500 233 C 525 249 575 249 600 233 C 625 217 675 217 700 233 C 725 249 775 249 800 233 C 825 217 875 217 900 233 C 925 249 975 249 1000 233 C 1025 217 1075 217 1100 233 C 1125 249 1175 249 1200 233"/>
+    </g>
+
+    <!-- entanglement wire -->
+    <line class="wire" x1="185" y1="130" x2="815" y2="130" stroke="url(#wireFade)" stroke-width="1.4"/>
+
+    <!-- left qubit -->
+    <g transform="translate(120 130)">
+      <circle r="54" fill="none" stroke="#22d3ee" stroke-opacity="0.28" stroke-width="1.2"/>
+      <ellipse rx="54" ry="18" fill="none" stroke="#22d3ee" stroke-opacity="0.22" stroke-width="1.1"/>
+      <ellipse rx="18" ry="54" fill="none" stroke="#22d3ee" stroke-opacity="0.16" stroke-width="1.1"/>
+      <g class="ring3">
+        <ellipse rx="54" ry="30" fill="none" stroke="#22d3ee" stroke-opacity="0.16" stroke-width="1.1"/>
+      </g>
+      <circle r="4.5" fill="#22d3ee">
+        <animateMotion dur="6s" repeatCount="indefinite"
+          path="M -54 0 A 54 18 0 1 0 54 0 A 54 18 0 1 0 -54 0"/>
+      </circle>
+      <circle r="2.6" fill="#e6edf3" fill-opacity="0.9"/>
+    </g>
+
+    <!-- right qubit -->
+    <g transform="translate(880 130)">
+      <circle r="54" fill="none" stroke="#8b5cf6" stroke-opacity="0.28" stroke-width="1.2"/>
+      <ellipse rx="54" ry="18" fill="none" stroke="#8b5cf6" stroke-opacity="0.22" stroke-width="1.1"/>
+      <ellipse rx="18" ry="54" fill="none" stroke="#8b5cf6" stroke-opacity="0.16" stroke-width="1.1"/>
+      <g class="ring3" style="animation-direction:reverse">
+        <ellipse rx="54" ry="30" fill="none" stroke="#8b5cf6" stroke-opacity="0.16" stroke-width="1.1"/>
+      </g>
+      <circle r="4.5" fill="#8b5cf6">
+        <animateMotion dur="6s" begin="-3s" repeatCount="indefinite"
+          path="M -54 0 A 54 18 0 1 0 54 0 A 54 18 0 1 0 -54 0"/>
+      </circle>
+      <circle r="2.6" fill="#e6edf3" fill-opacity="0.9"/>
+    </g>
+
+    <!-- bra-ket flanks (drawn, not glyphs, so no font coverage risk) -->
+    <g stroke="url(#ink)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.85">
+      <path d="M 252 104 L 236 130 L 252 156"/>
+      <path d="M 264 104 L 264 156"/>
+      <path d="M 736 104 L 736 156"/>
+      <path d="M 748 104 L 764 130 L 748 156"/>
+    </g>
+
+    <!-- name -->
+    <text class="mono" x="500" y="144" text-anchor="middle"
+          font-size="42" font-weight="700" letter-spacing="4" fill="url(#ink)">ABHAY SINGH</text>
+
+    <!-- cursor -->
+    <rect class="cursor" x="700" y="112" width="13" height="34" rx="1.5" fill="#22d3ee" opacity="0.9"/>
+
+    <!-- subtitle -->
+    <text class="mono" x="500" y="182" text-anchor="middle"
+          font-size="14.5" letter-spacing="3.2" fill="#8b949e">quantum systems &#183; compilers &#183; operating systems</text>
+
+    <rect x="0.5" y="0.5" width="999" height="259" rx="14" fill="none" stroke="#30363d" stroke-width="1"/>
+  </g>
+</svg>

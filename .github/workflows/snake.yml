@@ -6,7 +6,7 @@ on:
   workflow_dispatch: # Allows manual triggering
   push:
     branches:
-      - main
+      - Dump # default branch of this repo; 'main' does not exist here
 
 jobs:
   generate:
