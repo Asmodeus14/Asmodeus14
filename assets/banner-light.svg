@@ -23,42 +23,49 @@
       .mono { font-family: "DejaVu Sans Mono","Liberation Mono",Consolas,Menlo,monospace; }
       @keyframes blink { 0%,45% { opacity: 1; } 55%,100% { opacity: 0; } }
       @keyframes dash  { to { stroke-dashoffset: -48; } }
+      /* cores coming online, then regions being mapped */
+      @keyframes pulse { 0%,100% { opacity: 0.18; } 45% { opacity: 1; } }
       .cursor { animation: blink 1.15s step-end infinite; }
       .flow   { stroke-dasharray: 6 10; animation: dash 2.4s linear infinite; }
-      @media (prefers-reduced-motion: reduce) { .cursor, .flow { animation: none; } }
+      .blk    { animation: pulse 3.2s ease-in-out infinite; }
+      @media (prefers-reduced-motion: reduce) {
+        .cursor, .flow, .blk { animation: none; }
+        .blk { opacity: 0.66; }
+      }
     </style>
   </defs>
 
   <g clip-path="url(#frame)">
     <rect x="0" y="0" width="1000" height="200" fill="#ffffff"/>
 
-    <!-- entanglement / data path -->
+    <!-- data path -->
     <line class="flow" x1="185" y1="100" x2="815" y2="100" stroke="url(#wire)" stroke-width="1.4"/>
 
-    <!-- two qubits on Bloch spheres -->
-    <g transform="translate(120 100)">
-      <circle r="54" fill="none" stroke="#0891b2" stroke-opacity="0.42" stroke-width="1.2"/>
-      <ellipse rx="54" ry="18" fill="none" stroke="#0891b2" stroke-opacity="0.32" stroke-width="1.1"/>
-      <ellipse rx="18" ry="54" fill="none" stroke="#0891b2" stroke-opacity="0.24" stroke-width="1.1"/>
-      <circle r="4.5" fill="#0891b2">
-        <animateMotion dur="7s" repeatCount="indefinite"
-          path="M -54 0 A 54 18 0 1 0 54 0 A 54 18 0 1 0 -54 0"/>
-      </circle>
-      <circle r="2.6" fill="#24292f" fill-opacity="0.85"/>
+    <!-- left: SMP cores bootstrapping, one AP at a time -->
+    <g transform="translate(76 80)" fill="#0891b2">
+      <rect class="blk" x="0"  y="0"  width="15" height="15" rx="3" style="animation-delay:0s"/>
+      <rect class="blk" x="24" y="0"  width="15" height="15" rx="3" style="animation-delay:.18s"/>
+      <rect class="blk" x="48" y="0"  width="15" height="15" rx="3" style="animation-delay:.36s"/>
+      <rect class="blk" x="72" y="0"  width="15" height="15" rx="3" style="animation-delay:.54s"/>
+      <rect class="blk" x="0"  y="24" width="15" height="15" rx="3" style="animation-delay:.72s"/>
+      <rect class="blk" x="24" y="24" width="15" height="15" rx="3" style="animation-delay:.90s"/>
+      <rect class="blk" x="48" y="24" width="15" height="15" rx="3" style="animation-delay:1.08s"/>
+      <rect class="blk" x="72" y="24" width="15" height="15" rx="3" style="animation-delay:1.26s"/>
     </g>
 
-    <g transform="translate(880 100)">
-      <circle r="54" fill="none" stroke="#7c3aed" stroke-opacity="0.42" stroke-width="1.2"/>
-      <ellipse rx="54" ry="18" fill="none" stroke="#7c3aed" stroke-opacity="0.32" stroke-width="1.1"/>
-      <ellipse rx="18" ry="54" fill="none" stroke="#7c3aed" stroke-opacity="0.24" stroke-width="1.1"/>
-      <circle r="4.5" fill="#7c3aed">
-        <animateMotion dur="7s" begin="-3.5s" repeatCount="indefinite"
-          path="M -54 0 A 54 18 0 1 0 54 0 A 54 18 0 1 0 -54 0"/>
-      </circle>
-      <circle r="2.6" fill="#24292f" fill-opacity="0.85"/>
+    <!-- right: pages mapping in — same grid, outlined instead of filled -->
+    <g transform="translate(837 80)" fill="none" stroke="#7c3aed" stroke-width="2">
+      <rect class="blk" x="1"  y="1"  width="13" height="13" rx="2.5" style="animation-delay:1.40s"/>
+      <rect class="blk" x="25" y="1"  width="13" height="13" rx="2.5" style="animation-delay:1.22s"/>
+      <rect class="blk" x="49" y="1"  width="13" height="13" rx="2.5" style="animation-delay:1.04s"/>
+      <rect class="blk" x="73" y="1"  width="13" height="13" rx="2.5" style="animation-delay:.86s"/>
+      <rect class="blk" x="1"  y="25" width="13" height="13" rx="2.5" style="animation-delay:.68s"/>
+      <rect class="blk" x="25" y="25" width="13" height="13" rx="2.5" style="animation-delay:.50s"/>
+      <rect class="blk" x="49" y="25" width="13" height="13" rx="2.5" style="animation-delay:.32s"/>
+      <rect class="blk" x="73" y="25" width="13" height="13" rx="2.5" style="animation-delay:.14s"/>
     </g>
 
-    <!-- bra-ket flanks, drawn rather than typed so no font coverage risk -->
+    <!-- flanks drawn rather than typed so there is no font coverage risk -->
     <g stroke="url(#ink)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.9">
       <path d="M 252 74 L 236 100 L 252 126"/>
       <path d="M 264 74 L 264 126"/>
