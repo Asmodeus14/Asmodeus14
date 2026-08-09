@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 268" width="1000" height="268" role="img" aria-label="Public code: language distribution and activity for Asmodeus14">
+  <title>Public code — language distribution and activity</title>
+  <defs>
+    <style>
+      .mono { font-family: "DejaVu Sans Mono","Liberation Mono",Consolas,Menlo,monospace; }
+    </style>
+    <clipPath id="bar"><rect x="40" y="96" width="620" height="14" rx="7"/></clipPath>
+  </defs>
+
+  <rect x="0" y="0" width="1000" height="268" rx="14" fill="#ffffff"/>
+
+  <text class="mono" x="40" y="46" font-size="15" font-weight="700" letter-spacing="2" fill="#1f2328">PUBLIC CODE</text>
+  <line x1="40" y1="62" x2="960" y2="62" stroke="#d0d7de"/>
+
+  <text class="mono" x="40" y="84" font-size="11" letter-spacing="1.2" fill="#8c959f">LANGUAGE DISTRIBUTION</text>
+
+  <rect x="40" y="96" width="620" height="14" rx="7" fill="#eaeef2"/>
+  <g clip-path="url(#bar)">
+      <rect x="40.0" y="96" width="339.4" height="14" fill="#dea584"/>
+      <rect x="379.4" y="96" width="189.4" height="14" fill="#3178c6"/>
+      <rect x="568.8" y="96" width="35.7" height="14" fill="#3572A5"/>
+      <rect x="604.6" y="96" width="30.0" height="14" fill="#9d923b"/>
+      <rect x="634.6" y="96" width="25.4" height="14" fill="#AA6746"/>
+  </g>
+
+      <g transform="translate(40 144)">
+        <circle cx="5" cy="-4" r="5" fill="#dea584"/>
+        <text class="mono" x="18" y="0" font-size="13" fill="#1f2328">Rust</text>
+        <text class="mono" x="18" y="0" font-size="13" fill="#57606a" dx="39.6">54.7%</text>
+      </g>
+      <g transform="translate(250 144)">
+        <circle cx="5" cy="-4" r="5" fill="#3178c6"/>
+        <text class="mono" x="18" y="0" font-size="13" fill="#1f2328">TypeScript</text>
+        <text class="mono" x="18" y="0" font-size="13" fill="#57606a" dx="87">30.5%</text>
+      </g>
+      <g transform="translate(460 144)">
+        <circle cx="5" cy="-4" r="5" fill="#3572A5"/>
+        <text class="mono" x="18" y="0" font-size="13" fill="#1f2328">Python</text>
+        <text class="mono" x="18" y="0" font-size="13" fill="#57606a" dx="55.400000000000006">5.8%</text>
+      </g>
+      <g transform="translate(40 174)">
+        <circle cx="5" cy="-4" r="5" fill="#9d923b"/>
+        <text class="mono" x="18" y="0" font-size="13" fill="#1f2328">JavaScript</text>
+        <text class="mono" x="18" y="0" font-size="13" fill="#57606a" dx="87">4.8%</text>
+      </g>
+      <g transform="translate(250 174)">
+        <circle cx="5" cy="-4" r="5" fill="#AA6746"/>
+        <text class="mono" x="18" y="0" font-size="13" fill="#1f2328">Solidity</text>
+        <text class="mono" x="18" y="0" font-size="13" fill="#57606a" dx="71.2">4.1%</text>
+      </g>
+
+      <g transform="translate(720 104)">
+        <text class="mono" x="0" y="0" font-size="10" letter-spacing="1.4" fill="#8c959f">PUBLIC REPOS</text>
+        <text class="mono" x="0" y="26" font-size="26" font-weight="700" fill="#1f2328">25</text>
+      </g>
+      <g transform="translate(720 156)">
+        <text class="mono" x="0" y="0" font-size="10" letter-spacing="1.4" fill="#8c959f">COMMITS · 12 MO</text>
+        <text class="mono" x="0" y="26" font-size="26" font-weight="700" fill="#1f2328">223</text>
+      </g>
+      <g transform="translate(720 208)">
+        <text class="mono" x="0" y="0" font-size="10" letter-spacing="1.4" fill="#8c959f">CONTRIBUTIONS · 12 MO</text>
+        <text class="mono" x="0" y="26" font-size="26" font-weight="700" fill="#1f2328">240</text>
+      </g>
+
+  <text class="mono" x="40" y="246" font-size="10.5" fill="#8c959f">Excludes 8,695 KB of vendored third-party C and ASL (ACPICA, lwext4) embedded in Nyx.</text>
+
+  <rect x="0.5" y="0.5" width="999" height="267" rx="14" fill="none" stroke="#d0d7de"/>
+</svg>
