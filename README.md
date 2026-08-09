@@ -10,9 +10,9 @@ Most of my time goes to the layer where software meets hardware — schedulers, 
 
 ## Currently building
 
-- 🔭 **Networking on bare metal.** Brought up the Intel Wireless-AC 9462 `iwlwifi` MLD driver in Nyx over July 2026 — firmware load, `ALIVE` handshake, NVM parse, dual-band scan — then drove it end to end until the kernel fetched a real page off the live web.
-- ⚙️ **Userspace.** Porting a `std` surface for Nyx applications, plus fault hardening in the kernel's memory path.
-- 🧠 **Exploring** what a POSIX-shaped syscall ABI should borrow from — and where a kernel that knows about quantum execution has to stop borrowing.
+- **Networking on bare metal** — brought up the Intel Wireless-AC 9462 `iwlwifi` MLD driver in Nyx over July 2026: firmware load, `ALIVE` handshake, NVM parse, dual-band scan, then drove it end to end until the kernel fetched a real page off the live web.
+- **Userspace** — porting a `std` surface for Nyx applications, plus fault hardening in the kernel's memory path.
+- **Syscall design** — working out what a POSIX-shaped ABI should borrow from, and where a kernel that knows about quantum execution has to stop borrowing.
 
 ---
 
