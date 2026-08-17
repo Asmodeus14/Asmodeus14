@@ -55,11 +55,11 @@
       </g>
       <g transform="translate(720 156)">
         <text class="mono" x="0" y="0" font-size="10" letter-spacing="1.4" fill="#8c959f">COMMITS · 12 MO</text>
-        <text class="mono" x="0" y="26" font-size="26" font-weight="700" fill="#1f2328">317</text>
+        <text class="mono" x="0" y="26" font-size="26" font-weight="700" fill="#1f2328">299</text>
       </g>
       <g transform="translate(720 208)">
         <text class="mono" x="0" y="0" font-size="10" letter-spacing="1.4" fill="#8c959f">CONTRIBUTIONS · 12 MO</text>
-        <text class="mono" x="0" y="26" font-size="26" font-weight="700" fill="#1f2328">334</text>
+        <text class="mono" x="0" y="26" font-size="26" font-weight="700" fill="#1f2328">314</text>
       </g>
 
   <text class="mono" x="40" y="246" font-size="10.5" fill="#8c959f">Excludes 8,695 KB of vendored third-party C and ASL (ACPICA, lwext4) embedded in Nyx.</text>
