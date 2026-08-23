@@ -16,22 +16,22 @@
 
   <rect x="40" y="96" width="620" height="14" rx="7" fill="#eaeef2"/>
   <g clip-path="url(#bar)">
-      <rect x="40.0" y="96" width="302.6" height="14" fill="#dea584"/>
-      <rect x="342.6" y="96" width="159.3" height="14" fill="#3178c6"/>
-      <rect x="501.9" y="96" width="115.9" height="14" fill="#3572A5"/>
-      <rect x="617.9" y="96" width="22.7" height="14" fill="#AA6746"/>
+      <rect x="40.0" y="96" width="303.3" height="14" fill="#dea584"/>
+      <rect x="343.3" y="96" width="159.0" height="14" fill="#3178c6"/>
+      <rect x="502.3" y="96" width="115.7" height="14" fill="#3572A5"/>
+      <rect x="618.0" y="96" width="22.6" height="14" fill="#AA6746"/>
       <rect x="640.6" y="96" width="19.4" height="14" fill="#9d923b"/>
   </g>
 
       <g transform="translate(40 144)">
         <circle cx="5" cy="-4" r="5" fill="#dea584"/>
         <text class="mono" x="18" y="0" font-size="13" fill="#1f2328">Rust</text>
-        <text class="mono" x="18" y="0" font-size="13" fill="#57606a" dx="39.6">48.8%</text>
+        <text class="mono" x="18" y="0" font-size="13" fill="#57606a" dx="39.6">48.9%</text>
       </g>
       <g transform="translate(250 144)">
         <circle cx="5" cy="-4" r="5" fill="#3178c6"/>
         <text class="mono" x="18" y="0" font-size="13" fill="#1f2328">TypeScript</text>
-        <text class="mono" x="18" y="0" font-size="13" fill="#57606a" dx="87">25.7%</text>
+        <text class="mono" x="18" y="0" font-size="13" fill="#57606a" dx="87">25.6%</text>
       </g>
       <g transform="translate(460 144)">
         <circle cx="5" cy="-4" r="5" fill="#3572A5"/>
@@ -55,14 +55,14 @@
       </g>
       <g transform="translate(720 156)">
         <text class="mono" x="0" y="0" font-size="10" letter-spacing="1.4" fill="#8c959f">COMMITS · 12 MO</text>
-        <text class="mono" x="0" y="26" font-size="26" font-weight="700" fill="#1f2328">363</text>
+        <text class="mono" x="0" y="26" font-size="26" font-weight="700" fill="#1f2328">370</text>
       </g>
       <g transform="translate(720 208)">
         <text class="mono" x="0" y="0" font-size="10" letter-spacing="1.4" fill="#8c959f">CONTRIBUTIONS · 12 MO</text>
-        <text class="mono" x="0" y="26" font-size="26" font-weight="700" fill="#1f2328">377</text>
+        <text class="mono" x="0" y="26" font-size="26" font-weight="700" fill="#1f2328">384</text>
       </g>
 
-  <text class="mono" x="40" y="246" font-size="10.5" fill="#8c959f">Excludes 8,711 KB of vendored third-party C and ASL (ACPICA, lwext4) embedded in Nyx.</text>
+  <text class="mono" x="40" y="246" font-size="10.5" fill="#8c959f">Excludes 8,719 KB of vendored third-party C and ASL (ACPICA, lwext4) embedded in Nyx.</text>
 
   <rect x="0.5" y="0.5" width="999" height="267" rx="14" fill="none" stroke="#d0d7de"/>
 </svg>
