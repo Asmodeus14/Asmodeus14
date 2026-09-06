@@ -16,37 +16,37 @@
 
   <rect x="40" y="96" width="620" height="14" rx="7" fill="#eaeef2"/>
   <g clip-path="url(#bar)">
-      <rect x="40.0" y="96" width="261.9" height="14" fill="#dea584"/>
-      <rect x="301.9" y="96" width="158.3" height="14" fill="#3178c6"/>
-      <rect x="460.2" y="96" width="101.6" height="14" fill="#3572A5"/>
-      <rect x="561.8" y="96" width="78.3" height="14" fill="#A97BFF"/>
-      <rect x="640.1" y="96" width="19.9" height="14" fill="#AA6746"/>
+      <rect x="40.0" y="96" width="337.6" height="14" fill="#dea584"/>
+      <rect x="377.6" y="96" width="124.4" height="14" fill="#3178c6"/>
+      <rect x="502.0" y="96" width="80.8" height="14" fill="#3572A5"/>
+      <rect x="582.8" y="96" width="61.5" height="14" fill="#A97BFF"/>
+      <rect x="644.4" y="96" width="15.6" height="14" fill="#AA6746"/>
   </g>
 
       <g transform="translate(40 144)">
         <circle cx="5" cy="-4" r="5" fill="#dea584"/>
         <text class="mono" x="18" y="0" font-size="13" fill="#1f2328">Rust</text>
-        <text class="mono" x="18" y="0" font-size="13" fill="#57606a" dx="39.6">42.2%</text>
+        <text class="mono" x="18" y="0" font-size="13" fill="#57606a" dx="39.6">54.4%</text>
       </g>
       <g transform="translate(250 144)">
         <circle cx="5" cy="-4" r="5" fill="#3178c6"/>
         <text class="mono" x="18" y="0" font-size="13" fill="#1f2328">TypeScript</text>
-        <text class="mono" x="18" y="0" font-size="13" fill="#57606a" dx="87">25.5%</text>
+        <text class="mono" x="18" y="0" font-size="13" fill="#57606a" dx="87">20.1%</text>
       </g>
       <g transform="translate(460 144)">
         <circle cx="5" cy="-4" r="5" fill="#3572A5"/>
         <text class="mono" x="18" y="0" font-size="13" fill="#1f2328">Python</text>
-        <text class="mono" x="18" y="0" font-size="13" fill="#57606a" dx="55.400000000000006">16.4%</text>
+        <text class="mono" x="18" y="0" font-size="13" fill="#57606a" dx="55.400000000000006">13.0%</text>
       </g>
       <g transform="translate(40 174)">
         <circle cx="5" cy="-4" r="5" fill="#A97BFF"/>
         <text class="mono" x="18" y="0" font-size="13" fill="#1f2328">Kotlin</text>
-        <text class="mono" x="18" y="0" font-size="13" fill="#57606a" dx="55.400000000000006">12.6%</text>
+        <text class="mono" x="18" y="0" font-size="13" fill="#57606a" dx="55.400000000000006">9.9%</text>
       </g>
       <g transform="translate(250 174)">
         <circle cx="5" cy="-4" r="5" fill="#AA6746"/>
         <text class="mono" x="18" y="0" font-size="13" fill="#1f2328">Solidity</text>
-        <text class="mono" x="18" y="0" font-size="13" fill="#57606a" dx="71.2">3.2%</text>
+        <text class="mono" x="18" y="0" font-size="13" fill="#57606a" dx="71.2">2.5%</text>
       </g>
 
       <g transform="translate(720 104)">
@@ -55,14 +55,14 @@
       </g>
       <g transform="translate(720 156)">
         <text class="mono" x="0" y="0" font-size="10" letter-spacing="1.4" fill="#8c959f">COMMITS · 12 MO</text>
-        <text class="mono" x="0" y="26" font-size="26" font-weight="700" fill="#1f2328">408</text>
+        <text class="mono" x="0" y="26" font-size="26" font-weight="700" fill="#1f2328">410</text>
       </g>
       <g transform="translate(720 208)">
         <text class="mono" x="0" y="0" font-size="10" letter-spacing="1.4" fill="#8c959f">CONTRIBUTIONS · 12 MO</text>
-        <text class="mono" x="0" y="26" font-size="26" font-weight="700" fill="#1f2328">426</text>
+        <text class="mono" x="0" y="26" font-size="26" font-weight="700" fill="#1f2328">429</text>
       </g>
 
-  <text class="mono" x="40" y="246" font-size="10.5" fill="#8c959f">Excludes 8,719 KB of vendored third-party C and ASL (ACPICA, lwext4) embedded in Nyx.</text>
+  <text class="mono" x="40" y="246" font-size="10.5" fill="#8c959f">Excludes 9,247 KB of vendored third-party C and ASL (ACPICA, lwext4) embedded in Nyx.</text>
 
   <rect x="0.5" y="0.5" width="999" height="267" rx="14" fill="none" stroke="#d0d7de"/>
 </svg>
