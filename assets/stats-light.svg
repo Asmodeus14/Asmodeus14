@@ -16,10 +16,10 @@
 
   <rect x="40" y="96" width="620" height="14" rx="7" fill="#eaeef2"/>
   <g clip-path="url(#bar)">
-      <rect x="40.0" y="96" width="367.0" height="14" fill="#dea584"/>
-      <rect x="407.0" y="96" width="105.9" height="14" fill="#3572A5"/>
-      <rect x="513.0" y="96" width="88.9" height="14" fill="#3178c6"/>
-      <rect x="601.9" y="96" width="44.0" height="14" fill="#A97BFF"/>
+      <rect x="40.0" y="96" width="367.1" height="14" fill="#dea584"/>
+      <rect x="407.1" y="96" width="106.1" height="14" fill="#3572A5"/>
+      <rect x="513.3" y="96" width="88.7" height="14" fill="#3178c6"/>
+      <rect x="602.0" y="96" width="43.9" height="14" fill="#A97BFF"/>
       <rect x="645.9" y="96" width="14.1" height="14" fill="#9d923b"/>
   </g>
 
@@ -51,15 +51,15 @@
 
       <g transform="translate(720 104)">
         <text class="mono" x="0" y="0" font-size="10" letter-spacing="1.4" fill="#8c959f">PUBLIC REPOS</text>
-        <text class="mono" x="0" y="26" font-size="26" font-weight="700" fill="#1f2328">27</text>
+        <text class="mono" x="0" y="26" font-size="26" font-weight="700" fill="#1f2328">28</text>
       </g>
       <g transform="translate(720 156)">
         <text class="mono" x="0" y="0" font-size="10" letter-spacing="1.4" fill="#8c959f">COMMITS · 12 MO</text>
-        <text class="mono" x="0" y="26" font-size="26" font-weight="700" fill="#1f2328">571</text>
+        <text class="mono" x="0" y="26" font-size="26" font-weight="700" fill="#1f2328">578</text>
       </g>
       <g transform="translate(720 208)">
         <text class="mono" x="0" y="0" font-size="10" letter-spacing="1.4" fill="#8c959f">CONTRIBUTIONS · 12 MO</text>
-        <text class="mono" x="0" y="26" font-size="26" font-weight="700" fill="#1f2328">668</text>
+        <text class="mono" x="0" y="26" font-size="26" font-weight="700" fill="#1f2328">682</text>
       </g>
 
   <text class="mono" x="40" y="246" font-size="10.5" fill="#8c959f">Excludes 9,292 KB of vendored third-party C and ASL (ACPICA, lwext4) embedded in Nyx.</text>
